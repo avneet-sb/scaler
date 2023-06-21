@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+
+class newpage extends StatefulWidget {
+  const newpage({ Key? key }) : super(key: key);
+
+  @override
+  State<newpage> createState() => _newpageState();
+}
+
+class _newpageState extends State<newpage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Text("New Page"),
+      ),
+    );
+  }
+}
